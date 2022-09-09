@@ -1,0 +1,74 @@
+PENGERTIAN FUNCTION
+sub-program / sub-routine yang dapat dipanggil di bagian lain pada program
+
+struktur dasar pembentuk dari javascript (fundamental building blocks)
+
+prosedur (kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai)
+
+Untuk dapat menggunakannya, kita harus membuat terlebih dahulu function tersebut, lalu memanggilnya
+
+Termasuk ke dalam First-Class Object
+
+KENAPA FUNCTION ?
+Reusability (DRY : Do not Repeat Yourself) 
+Dekomposisi/Abstraksi
+Modularitas
+
+KATEGORI FUNCTION
+Built-in function
+User-Defined fuction
+
+BUILT-IN FUNCTION
+fungsi yang sudah disediakan / dibuat oleh javascript
+kita tinggal memanggilnya saja
+contoh :
+- alert();
+- confirm();
+- prompt();
+String : charAt(), slice(), split(), toString(), toLowerCase(), toUpperCase(), ...
+pada javascript index dari 0
+Math : sin(), cos(), tan(), random(), round(), floor(), ceil(), log() ...
+
+USER-DEFINED FUNCTION
+Fungsi yang kita buat sendiri
+Menggunakan keyword function
+Nama Function (optional)
+Parameter/Arugment (Bahan Baku yang akan digunakan di dalam function)
+- Disimpan di dalam ()
+- Boleh ada atau tidak, jika ada boleh lebih dari satu
+- Dipisahkan oleh koma(,)
+Function Body, dibungkus dengan {}
+Dapat mengembalikan nilai (return value) atau tidak
+
+MEMBUAT USER-DEFINED FUNCTION
+Dengan deklarasi / function declaration
+Dengan ekspresi / function expression
+
+FUNCTION DECLARATION 
+function jumlahDuaBilangan(a,b) {
+    var total;
+    total = a + b;
+    return total;
+}
+
+FUNCTION EXPRESSION
+var jumlahDuaBilangan = function(a, b) {
+    var total;
+    total = a + b;
+    return total;
+}
+
+STRUKTUR FUNCTION 
+keyword namaFunction (parameter) {
+    function Body
+    nilai kembalian
+}
+
+MEMANGGIL / MENJALANKAN FUNCTION
+alert(jumlahDuaBilangan(1,2));
+alert(jumlahDuaBilangan(25,30));
+alert(jumlahDuaBilangan(1500,17.5));
+
+
+
+

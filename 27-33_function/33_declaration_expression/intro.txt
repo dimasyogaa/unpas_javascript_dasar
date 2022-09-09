@@ -1,0 +1,33 @@
+PENULISAN FUNCTION
+- FUNCTION DECLARATION
+- FUNCTION EXPRESSION
+
+FUNCTION DECLARATION
+function identifier(namaFungsi) (ParameterList opt) {FunctionBody}
+contoh :
+function tampilPesan (nama) {
+    alert('halo' + nama);
+}
+tampilPesan('yoga');
+Lebih fleksibel (dapat ditulis dimanapun) artinya bisa dipanggil terlebih dahulu sebelum dibuat
+- karena konsep Hoisting : dimana deklarasi sebuah function disimpan terlebih dahulu di dalam memori
+Mudah dipahami pemula
+
+FUNCTION EXPRESSION
+var namaVariabel = function identifier(namaFungsi) opt (ParameterList opt) {FunctionBody}
+contoh :
+var tampilPesan = function (nama) {
+    alert('halo' + nama);
+}
+tampilPesan('yoga');
+Harus didefinisikan terlebih dahulu sebelum dipanggil
+Lebih powerfull :
+ - Sebagai closure
+ - Sebagai argumen untuk function lain
+ - IIFE (Immediately Invoked Function Expression)
+
+
+
+Berbagi info aja gan ::
+1. semua function itu baik anonymous/expression dan declaration pasti support IIFE meskipun paling cocok di function expression (sesuai nama.a).
+2. kenapa ada hosting d JavaScript, karena sebenar.a d JavaScript itu ada 2 proses : 1. Proses kreasi, jd setiap deklarasi, bail itu function dan variable pasti akan di "ambil" duluan, lalu selanjutnya yg ke 2. Proses eksekusi, jd segala jenis pemanggilan function, bahkan sampai proses assign expressi ke variable akan masuk ke proses eksekusi. Jadi itu lh mengapa funtion expresi tidak mendukung hosting.

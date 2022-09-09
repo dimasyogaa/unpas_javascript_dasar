@@ -1,0 +1,12 @@
+MANIPULASI ARRAY
+menambah elemen pada array 
+menghapus elemen pada array 
+Menampilkan seluruh isi array
+
+ARRAY METHOD
+length : jumlah elemen pada array
+join : menggabungkan seluruh isi array dan mengubahnya menjadi string
+push : menambah elemen array baru di akhir arraynya
+pop : menghilangkan elemen terakhir dari sebuah array
+unshift : menambah elemen array baru di awal arraynya
+shift : menghapus elemen pertama dari array

@@ -1,0 +1,7 @@
+FOREACH DAN MAP
+foreach : tidak mengembalikan array
+map : mengembalikan array
+sort : mengurutkan isi array
+
+
+

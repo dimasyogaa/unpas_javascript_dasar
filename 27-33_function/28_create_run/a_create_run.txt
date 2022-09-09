@@ -1,0 +1,24 @@
+FUNCTION
+function yang baik adalah function yang mengerjakan 1 tugas spesifik
+Blok kode yang dibuat untuk melakukan tugas spesifik
+Dapat dipanggil berulang kali
+Memudahkan penelusuran
+Reusability
+
+keyword function : untuk memberitahu interpreter javascript bahwa kita akan mulai menulis sebuah fungsi
+beri nama function yang menjelaskan apa yang akan dilakukan
+selalu tuliskan kurung untuk menyimpan parameter / argumen / bahan baku untuk nantinya digunakan di dalam function
+
+PARAMETER & ARGUMENT
+argumen dikirim dari luar saat pemanggilan function, unntuk digunakan sebagai parameter di dalam Function
+anggap sebagai variable khusus untuk function
+optional, boleh ada atau tidak
+jika tidak ada kosongkan, tapi kurung harus tetap ditulis
+
+RETURN 
+sebuah function biasanya mengembalikan sebuah nilai
+menggunakan keyword return, lalu diikuti dengan nilai kembaliannya
+kegunaannya adalah untuk memberitahu interpreter bahwa kita telah selesai mengerjakan sesuatu dan inilah hasilnya
+setelah sampai pada keyword return, function akan berhenti berjalan, 
+di dalam function bisa terdapat lebih dari 1 return yang mana return tersebut biasanya di dalam blok pengkondisian
+jadi di dalam function bisa mengembalikan 2 nilai tergantung kondisinya apa

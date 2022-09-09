@@ -1,0 +1,10 @@
+REFACTORING
+sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitasnya
+
+KENAPA
+Readability
+DRY (Don't Repeat Yourself)
+Testability
+Performance
+Maintainability
+

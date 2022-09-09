@@ -1,0 +1,18 @@
+Object
+- kumpulan nilai, yang memiliki nama
+- array yang lebih sakti
+
+Object pada Bahasa Pemrograman Lain
+PHP : Associative Array 
+Python : Dictionaries
+C : Hash Tables
+Java : Hash Maps
+Ruby & Perl : Hashes
+
+ANATOMI OBJECT 
+variabel yang ada di dalam object disebut properti
+function yang ada di dalam object disebut method
+
+
+
+

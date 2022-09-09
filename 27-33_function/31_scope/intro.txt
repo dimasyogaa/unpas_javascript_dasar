@@ -1,0 +1,34 @@
+SCOPE / VARIABLE SCOPE
+bagaimana variabel bisa diakses dalam program kita
+
+JENIS
+- BLOCK SCOPE
+- FUNCTION SCOPE
+
+BLOCK SCOPE
+biasanya digunakan pada C dan Java
+contoh : 
+int i = 2;
+if( i % 2 == 0 ) {
+    bool genap = true;
+}
+if( genap ) {
+    printf("genap!");
+}
+hasil : 'genap' is undeclared
+penjelasan : variabel genap di dalam blok scope atau di dalam kurung kurawal BUKAN PADA FUNCTION hanya bisa digunakan di dalam blok scope itu sendiri, sehingga tidak bisa digunakan di luar blok scope variabel itu dibuat
+
+TAPI JIKA DI Javascript tetap tampil hasilnya karena javascript tidak menganut blok scope
+coba saja code ini :
+var i = 2;
+if ( i % 2 == 0 ) {
+    var genap = true;
+}
+
+if ( genap ) {
+    console.log('genap');
+}
+
+FUNCTION SCOPE
+konsep yang dianut oleh Javascript
+variabel hanya berlaku di dalam FUNCTION itu sendiri

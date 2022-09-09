@@ -1,0 +1,7 @@
+PENGELOLAAN ANGKOT
+- sopir
+- trayek
+- kas
+- penumpang
+  - penumpang naik
+  - penumpang turun

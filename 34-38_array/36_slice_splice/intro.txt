@@ -1,0 +1,7 @@
+slice
+mengiris array
+mengambil beberapa bagian dari array untuk menjadi array yang baru
+
+splice
+menyambung/menambal
+menyisipkan sebuah elemen di tengah tengah array

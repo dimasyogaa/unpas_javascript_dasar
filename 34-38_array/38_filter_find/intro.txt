@@ -1,0 +1,5 @@
+FIND
+mencari elemen pada array, mengembalikan 1 nilai
+
+FILTER
+mencari elemen pada array. mengembalikan banyak nilai

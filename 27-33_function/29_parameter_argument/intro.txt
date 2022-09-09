@@ -1,0 +1,18 @@
+PARAMETER
+variabel yang ditulis di dalam kurung pada saat function dibuat, digunakan untuk menampung nilai yang dikirimkan saat function dipanggil
+- ketika fungsi dibuat
+
+ARGUMENT 
+nilai yang dikirimkan ke PARAMETER saat fungsi dipanggil
+- ketika fungsi dipanggil
+
+PADA FUNCTION 
+jika PARAMETER lebih sedikit dari argument, 
+maka ARGUMENT kelebihannya akan diabaikan
+
+jika PARAMETER lebih banyak dari argument, 
+maka PARAMETER kelebihannya akan diisi dengan nilai undefined
+
+
+arguments (pseudo-variabel / variabel semu)
+ada sebuah variabel javascript yang bernama arguments yang merupakan array yang berisi nilai yang dikirimkan saat fungsi dipanggil
