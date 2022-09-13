@@ -30,4 +30,4 @@ Lebih powerfull :
 
 Berbagi info aja gan ::
 1. semua function itu baik anonymous/expression dan declaration pasti support IIFE meskipun paling cocok di function expression (sesuai nama.a).
-2. kenapa ada hosting d JavaScript, karena sebenar.a d JavaScript itu ada 2 proses : 1. Proses kreasi, jd setiap deklarasi, bail itu function dan variable pasti akan di "ambil" duluan, lalu selanjutnya yg ke 2. Proses eksekusi, jd segala jenis pemanggilan function, bahkan sampai proses assign expressi ke variable akan masuk ke proses eksekusi. Jadi itu lh mengapa funtion expresi tidak mendukung hosting.
+2. kenapa ada hoisting d JavaScript, karena sebenarnya di JavaScript itu ada 2 proses : 1. Proses kreasi, jd setiap deklarasi, baik itu function dan variable pasti akan di "ambil" duluan, lalu selanjutnya yg ke 2. Proses eksekusi, jd segala jenis pemanggilan function, bahkan sampai proses assign expressi ke variable akan masuk ke proses eksekusi. Jadi itu lah mengapa funtion expresi tidak mendukung hoisting.
